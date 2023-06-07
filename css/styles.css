@@ -694,7 +694,7 @@ body
     font-size: 13px;
     line-height: 1.5;
     margin-bottom: 30px;
-    letter-spacing: -1px;
+    letter-spacing: 0px;
   }
   .hero-img{
     width: 190px;
