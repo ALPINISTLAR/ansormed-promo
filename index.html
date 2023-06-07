@@ -27,7 +27,7 @@
         </a>
       </span>
       <nav>
-        <ul class="site-nav-list">
+        <ul class="site-nav-list js-sitenav">
           <li class="site-nav-item"><a class="site-nav-link" href="#">Xizmatlar</a></li>
           <li class="site-nav-item"><a class="site-nav-link" href="#">Dorilar</a></li>
           <li class="site-nav-item"><a class="site-nav-link" href="#">Asal</a></li>
@@ -36,6 +36,13 @@
         </ul>
       </nav>
       <a class="main-link" href="#index-cta">qabulga yozilish</a>
+      <button class="sitenav-opener">
+        <svg width="24" height="21" viewBox="0 0 24 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="24" height="3" fill="currentColor"/>
+          <rect y="9" width="24" height="3" fill="currentColor"/>
+          <rect y="18" width="24" height="3" fill="currentColor"/>
+        </svg>
+      </button>
     </div>
   </header>
   <!-- ============= -->
@@ -46,10 +53,10 @@
       <div class="container site-hero-container">
         <div class="hero-content-box">
           <h1 class="hero-heading">Tabiiy davolash usullari yordamida <br> kasalliklardan xalos bo’ling.</h1>
-          <p class="hero-content-text">Hijoma, manual terapiya, zuluk va turli tabiiy <br> giyohlar eng ko’p uchraydigan kasalliklarni <br> yengishda yordam beradi. Sog’ligingizni o’z ishining <br> professionallariga ishonib topshiring.</p>
+          <p class="hero-content-text">Hijoma, manual terapiya, zuluk va turli tabiiy  giyohlar eng ko’p uchraydigan kasalliklarni yengishda yordam beradi. Sog’ligingizni o’z ishining professionallariga ishonib topshiring.</p>
           <a class="hero-main-link" href="#index-cta">qabulga yozilish</a>
         </div>
-        <div class="hero-img-box"><img class="hero-img" src="img/hero-img.png" alt="hero-image" width="423" height="504" srcset="img/hero-img.png 1x, img/hero-img@2x.png 2x"></div>
+        ><img class="hero-img" src="img/hero-img.png" alt="hero-image" width="423" height="504" srcset="img/hero-img.png 1x, img/hero-img@2x.png 2x">
       </div>
     </section>
     <!-- ====================== -->
@@ -61,25 +68,25 @@
         <ul class="service">
           <li class="service-list">
             <img class="service-list-img" src="img/image1.jpg" alt="hijoma rasmi" width="200" height="200" srcset="img/image1.jpg 1x, img/image1@2x.jpg 2x ">
-            <div class="service-list-text">
-              <h3>Hijoma</h3>
-              <p class="service-list-parag">Imom Termiziy Abdulloh ibn Abbos raziyallohu anhumodan rivoyat qilgan hadisda rasululloh sallallohu alayhi va sallam dedilar: «Sizlar hijoma qiladigan kunlaringizning eng yaxshisi 17, 19 va 21-kunlardir» (bu kunlar hijrij-kamariy hisobdagi oylar kunlaridir).</p>
+            <div class="service-list-info">
+              <h3 class="service-list-title">Hijoma</h3>
+              <p class="service-list-text">Imom Termiziy Abdulloh ibn Abbos raziyallohu anhumodan rivoyat qilgan hadisda rasululloh sallallohu alayhi va sallam dedilar: «Sizlar hijoma qiladigan kunlaringizning eng yaxshisi 17, 19 va 21-kunlardir» (bu kunlar hijrij-kamariy hisobdagi oylar kunlaridir).</p>
             </div></li>
 
-            <li class="service-list"> <img class="service-list-img" src="img/image2.jpg" alt="manual terapiya rasmi" width="200" height="200" srcset="img/image2.jpg 1x, img/image2@2x 2x">
-              <div class="service-list-text">
-                <h3>Manual terapiya</h3>
-                <p class="service-list-parag">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac metus placerat, pellentesque enim ac, rhoncus lectus. Maecenas et posuere lorem. Fusce sed massa sit amet elit viverra hendrerit.</p>
+            <li class="service-list"> <img class="service-list-img" src="img/image2.jpg" alt="manual terapiya rasmi" width="200" height="200" srcset="img/image2.jpg 1x, img/image2@2x.jpg 2x">
+              <div class="service-list-info">
+                <h3 class="service-list-title">Manual terapiya</h3>
+                <p class="service-list-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac metus placerat, pellentesque enim ac, rhoncus lectus. Maecenas et posuere lorem. Fusce sed massa sit amet elit viverra hendrerit.</p>
               </div></li>
-              <li class="service-list"> <img class="service-list-img" src="img/image3.jpg" alt="zuluk bilan davolash rasmi" width="200" height="200" srcset="img/image3.jpg 1x, img/image3@2x 2x">
-                <div class="service-list-text">
-                  <h3>Zuluk bilan davolash</h3>
-                  <p class="service-list-parag">Girudoterapiya (lot. hirūdō — «zuluk» va qad. yun. θεραπεία — «davolash») — ma’lum kasalliklarni dorivor zuluklar (Hirudo medicinalis) yordamida davolash usuli. Fizioterapevtik muolaja, muqobil tibbiyotga oid sanaladi. Bunday zuluklar ushbu kichik sinf chuvchalchanglariga oid yagona tur hisoblanadi, qolganlari shifobaxsh ta’sir ko’rsatmaydi.</p>
+              <li class="service-list"> <img class="service-list-img" src="img/image3.jpg" alt="zuluk bilan davolash rasmi" width="200" height="200" srcset="img/image3.jpg 1x, img/image3@2x.jpg 2x">
+                <div class="service-list-info">
+                  <h3 class="service-list-title">Zuluk bilan davolash</h3>
+                  <p class="service-list-text">Girudoterapiya (lot. hirūdō — «zuluk» va qad. yun. θεραπεία — «davolash») — ma’lum kasalliklarni dorivor zuluklar (Hirudo medicinalis) yordamida davolash usuli. Fizioterapevtik muolaja, muqobil tibbiyotga oid sanaladi. Bunday zuluklar ushbu kichik sinf chuvchalchanglariga oid yagona tur hisoblanadi, qolganlari shifobaxsh ta’sir ko’rsatmaydi.</p>
                 </div></li>
-                <li class="service-list"> <img class="service-list-img" src="img/image4.jpg" alt="tabiiy dori vositalari rasmi" width="200" height="200" srcset="img/image4.jpg 1x, img/image4@2x 2x">
-                  <div class="service-list-text">
-                    <h3>Tabiiy dori vositalari</h3>
-                    <p class="service-list-parag">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac metus placerat, pellentesque enim ac, rhoncus lectus. Maecenas et posuere lorem. Fusce sed massa sit amet elit viverra hendrerit.</p>
+                <li class="service-list"> <img class="service-list-img" src="img/image4.jpg" alt="tabiiy dori vositalari rasmi" width="200" height="200" srcset="img/image4.jpg 1x, img/image4@2x.jpg 2x">
+                  <div class="service-list-info">
+                    <h3 class="service-list-title">Tabiiy dori vositalari</h3>
+                    <p class="service-list-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac metus placerat, pellentesque enim ac, rhoncus lectus. Maecenas et posuere lorem. Fusce sed massa sit amet elit viverra hendrerit.</p>
                   </div></li>
                 </ul>
                 <div class="feature-link-wrapper"><a class="feature-main-link" href="#index-cta">qabulga yozilish</a></div>
@@ -119,5 +126,6 @@
               </nav>
             </div>
           </footer>
+          <script src="js/main.js"></script>
         </body>
         </html>
